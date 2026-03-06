@@ -1,0 +1,36 @@
+# Dave's Fishing Charters
+
+Dave's Fishing Charters is a charter fishing business launching from Montague Municipal Boat Launch:
+8500 Ramp Rd, Montague, MI 49437.
+
+Key facts:
+- Phone: 231-672-0399
+- Email: booking@davesfishingcharters.com
+- Services: salmon, walleye, crappie, panfish, and family-friendly trips
+- Reservation deposit: $100 to secure your date
+
+Primary pages:
+- /
+- /about.html
+- /services.html
+- /faqs.html
+- /rates.html
+- /resources.html
+- /reviews.html
+- /photos.html
+- /contact.html
+- /destinations.html
+- /toledo-to-montague-fishing-charter.html
+- /detroit-to-montague-fishing-charter.html
+- /cleveland-to-montague-fishing-charter.html
+- /columbus-to-montague-fishing-charter.html
+- /indianapolis-to-montague-fishing-charter.html
+- /chicago-to-montague-fishing-charter.html
+- /milwaukee-to-montague-fishing-charter.html
+
+- /montague-wave-report.html
+
+- /blog/
+- /blog/posts/best-time-for-salmon-montague.html
+- /blog/posts/first-time-family-charter-checklist.html
+- /blog/posts/chicago-to-montague-weekend-plan.html
