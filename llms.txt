@@ -19,6 +19,7 @@ Primary pages:
 - /reviews.html
 - /photos.html
 - /contact.html
+- /privacy.html
 - /destinations.html
 - /toledo-to-montague-fishing-charter.html
 - /detroit-to-montague-fishing-charter.html
