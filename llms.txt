@@ -1,37 +1,30 @@
-# Dave's Fishing Charters
+# DFC -- AI Context
+> Read this first. Any tool, any session.
+> ~50 lines. Follow the pointers -- don't read full files unless the task needs it.
 
-Dave's Fishing Charters is a charter fishing business launching from Montague Municipal Boat Launch:
-8500 Ramp Rd, Montague, MI 49437.
+---
 
-Key facts:
-- Phone: 231-672-0399
-- Email: booking@davesfishingcharters.com
-- Services: salmon, walleye, crappie, panfish, and family-friendly trips
-- Reservation deposit: $100 to secure your date
+## Layer 1: Context
+- Project: DFC | Type: Unknown
+- What it does: see CLAUDE.md
+- Last session: 2026-04-13 -- Initial PROJECT-PROFILE.md bootstrapped by install.ps1
+- Open flags: Run /session-reviewer after first real session to complete Tech Stack, Active Skills, and Confirmed Patterns; Verify Publishing remotes are correctly configured
+- Session log: .claude/PROJECT-PROFILE.md -> Session History
+- Full session history: .claude/PROJECT-PROFILE.md
 
-Primary pages:
-- /
-- /about.html
-- /services.html
-- /faqs.html
-- /rates.html
-- /resources.html
-- /reviews.html
-- /photos.html
-- /contact.html
-- /privacy.html
-- /destinations.html
-- /toledo-to-montague-fishing-charter.html
-- /detroit-to-montague-fishing-charter.html
-- /cleveland-to-montague-fishing-charter.html
-- /columbus-to-montague-fishing-charter.html
-- /indianapolis-to-montague-fishing-charter.html
-- /chicago-to-montague-fishing-charter.html
-- /milwaukee-to-montague-fishing-charter.html
+## Layer 2: Reasoning
+- Active pipeline: /project-manager
+- Active skills: Skill, session-reviewer, project-manager, researcher
+- Rules: dev-team/rules/ (coding-standards, agent-habits, token-habits)
+- Full skill list: .claude/PROJECT-PROFILE.md -> Active Skills
 
-- /montague-wave-report.html
+## Layer 3: External Knowledge
+- No wiki or CLAUDE.md found. Check project root for documentation.
 
-- /blog/
-- /blog/posts/best-time-for-salmon-montague.html
-- /blog/posts/first-time-family-charter-checklist.html
-- /blog/posts/chicago-to-montague-weekend-plan.html
+## Layer 4: Dev Knowledge
+- Stack: Unknown | Unknown
+- Top gotchas:
+  - (none recorded yet)
+- Full patterns + gotchas: .claude/PROJECT-PROFILE.md -> Confirmed Patterns / Known Gotchas
+- Standards: dev-team/rules/coding-standards.md
+- Execution standard: C:\GIT\ai-optimization\methodology\engineering-execution-protocol.md
