@@ -1,37 +1,50 @@
-# Repository Guidelines
+# AGENTS.md — DFC
 
-## Project Structure & Module Organization
-This repository is a static multi-page site. Root-level HTML files are page entry points (`index.html`, `contact.html`, `rates.html`, `destinations.html`, and `*-to-montague-fishing-charter.html`). Shared styling and scripts live in `assets/css/styles.css` and `assets/js/main.js`. Discovery files are `sitemap.xml`, `robots.txt`, and `llms.txt`.
+Universal agent instructions. Recognized by Claude Code, OpenAI Codex CLI, and others.
 
-## Build, Test, and Development Commands
-- `cd C:\GIT\DFC`
-- `python -m http.server 8080` runs the site locally at `http://localhost:8080`.
-- `rg -n "pattern" C:\GIT\DFC` checks metadata/content quickly.
-- `Get-ChildItem C:\GIT\DFC -Filter *.html` lists page files for QA sweeps.
-- `powershell -ExecutionPolicy Bypass -File .\tools\generate_blog_feed.ps1` regenerates the blog RSS feed after new posts land.
+---
 
-## Coding Style & Naming Conventions
-Use UTF-8 text, 2-space HTML/CSS indentation, and descriptive, lowercase kebab-case filenames (example: `toledo-to-montague-fishing-charter.html`). Keep metadata accurate and human-readable (no placeholders). Keep shared styles in `assets/css/styles.css`; avoid inline styles unless narrowly scoped.
+## Read First
 
-## Testing Guidelines
-No formal test framework is configured. Required manual QA for every major change:
-- Validate all internal links.
-- Validate title/meta/OG/Twitter tags per page.
-- Validate JSON-LD schema consistency.
-- Validate sitemap/robots/llms updates.
-- Check desktop + mobile rendering.
+1. `C:\GIT\ai-optimization\llms.txt` — framework manifest
+2. `llms.txt` — this project's context
 
-## Security & Configuration Tips
-Do not expose secrets in static files. Keep contact forms configured to approved endpoints only. Never publish private keys, tokens, or admin URLs in markup.
+---
 
-## GBP, SEO, and AEO Compliance Rules (Mandatory)
-- Keep one real GBP business address: **5123 Osmun Street, Montague, Michigan 49437**.
-- Keep launch location separate in content: **Montague Municipal Boat Launch, 8500 Ramp Rd, Montague, MI 49437**.
-- Do not create fake city offices, virtual offices, or misleading local claims.
-- Destination SEO must position travelers coming to Montague, not the business operating from their city.
+## Mandatory Rules
 
-## Must-Do After Big Plan Execute
-Run a compliance gap analysis before and after major work against Google Search Essentials, Google spam policies, GBP representation rules, and Bing webmaster guidance. Use `powershell -ExecutionPolicy Bypass -File .\tools\seo_gap_analysis.ps1`. If any check fails, stop release, fix, and re-validate.
+### PowerShell Scripts
+- All tools live in `tools/` — PS5.1 compatible (no `?.`, no em-dashes `--`)
+- Daily report automation: `run_daily_report.ps1`
+- SEO analysis: `seo_gap_analysis.ps1`
+- Blog tooling: `new_blog_post.ps1`, `generate_blog_feed.ps1`
+- Montague report: `update_montague_report.py`
 
-## Commit & Pull Request Guidelines
-If/when Git is initialized, use concise conventional commits (example: `feat: add columbus destination page`, `fix: correct city meta descriptions`). PRs should include: summary, changed files, compliance notes (GBP/SEO/AEO), and screenshots for visual updates.
+### PS5.1 Compatibility
+- No null-conditional `?.` operator
+- No em-dash `--` (use `-` instead)
+- Use `[System.IO.File]::WriteAllText()` for BOM-free UTF-8 writes
+
+### Session End
+- Run session-reviewer before /compact or /clear
+
+---
+
+## Self-Healing Protocol
+
+When a task fails:
+1. Check PS5.1 compatibility — null-conditional and em-dash operators are PS7+ only
+2. If script fails: verify PowerShell version and module availability
+3. Escalate: fail twice at Mid → Top for automation architecture decisions
+
+Full protocol: `C:\GIT\ai-optimization\methodology\self-healing-loop.md`
+
+---
+
+## Model Tiers
+
+- **Low** (haiku): reading existing scripts, documentation, simple edits
+- **Mid** (sonnet): script development, report automation, SEO analysis — default
+- **Top** (opus): new automation pipeline design, major architecture decisions
+
+> Master index: `C:\GIT\ai-optimization\methodology\ai-workflow.md`
