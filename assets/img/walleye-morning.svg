@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Walleye morning run">
-  <rect width="1200" height="900" fill="#deeff7"/>
-  <rect y="560" width="1200" height="340" fill="#4a90b2"/>
-  <path d="M160 520 L430 430 L790 470 L1040 390 L1040 540 L160 540 Z" fill="#204f64"/>
-  <ellipse cx="650" cy="420" rx="240" ry="70" fill="#d4bf8d"/>
-  <ellipse cx="650" cy="420" rx="180" ry="50" fill="#c7af74"/>
-  <text x="70" y="90" font-size="52" fill="#163040" font-family="Arial">Walleye Morning Run</text>
-</svg>

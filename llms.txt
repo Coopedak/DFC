@@ -27,4 +27,3 @@
   - (none recorded yet)
 - Full patterns + gotchas: .claude/PROJECT-PROFILE.md -> Confirmed Patterns / Known Gotchas
 - Standards: dev-team/rules/coding-standards.md
-- Execution standard: C:\GIT\ai-optimization\methodology\engineering-execution-protocol.md

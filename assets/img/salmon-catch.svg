@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Salmon catch">
-  <rect width="1200" height="900" fill="#e7f5fb"/>
-  <rect y="560" width="1200" height="340" fill="#4e95b7"/>
-  <ellipse cx="620" cy="460" rx="320" ry="120" fill="#d5dde1"/>
-  <ellipse cx="620" cy="460" rx="260" ry="90" fill="#a8b8c2"/>
-  <circle cx="830" cy="440" r="9" fill="#243843"/>
-  <path d="M350 460 L250 400 L250 520 Z" fill="#9fb0ba"/>
-  <text x="70" y="90" font-size="52" fill="#163040" font-family="Arial">Salmon Catch</text>
-</svg>

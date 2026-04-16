@@ -1,0 +1,12 @@
+---
+description: Project wiki and AI skills -- read before domain questions
+globs: "**/*"
+alwaysApply: true
+---
+
+Read llms.txt for project context. Read CLAUDE.md for rules.
+
+## Skills (AI-agnostic -- any tool can use these)
+Read the skill file listed in the index and follow its instructions:
+- Skills: C:\GIT\ai-optimization\skills\.index-cursor.md
+- Agents: C:\GIT\ai-optimization\agents\.index-cursor.md
