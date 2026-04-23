@@ -26,7 +26,7 @@ Universal agent instructions. Recognized by Claude Code, OpenAI Codex CLI, and o
 - Use `[System.IO.File]::WriteAllText()` for BOM-free UTF-8 writes
 
 ### Session End
-- Run session-reviewer before /compact or /clear
+- Session review runs via Loop 13 nightly -- do not invoke /session-reviewer manually
 
 ---
 
