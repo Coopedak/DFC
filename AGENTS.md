@@ -4,6 +4,17 @@ Universal agent instructions. Recognized by Claude Code, OpenAI Codex CLI, and o
 
 ---
 
+## Before Any Implementation
+
+Search in this order before writing any script, query, process, or workflow:
+
+1. `wiki/` -- project-specific tools and skills
+2. `C:\Users\DCC\vault\tools\index.md` -- global tool registry
+3. `C:\Users\DCC\vault\skills\index.md` -- global skill registry
+
+Exact match: use it. Similar: create variant, save it back. Nothing: create new, register it.
+
+
 ## Read First
 
 1. `C:\GIT\ai-optimization\llms.txt` — framework manifest
