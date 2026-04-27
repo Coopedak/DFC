@@ -27,3 +27,8 @@
   - (none recorded yet)
 - Full patterns + gotchas: .claude/PROJECT-PROFILE.md -> Confirmed Patterns / Known Gotchas
 - Standards: dev-team/rules/coding-standards.md
+
+## Knowledge Hierarchy
+- Vault: C:\Users\DCC\vault\index.md -- cross-project patterns, tools, methodology (portable knowledge)
+- Lookup order: project wiki first -> vault -> external search
+- Vault subtrees: methodology/ tools/ skills/ domain/ career/ projects/
