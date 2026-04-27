@@ -32,3 +32,5 @@
 - Vault: C:\Users\DCC\vault\index.md -- cross-project patterns, tools, methodology (portable knowledge)
 - Lookup order: project wiki first -> vault -> external search
 - Vault subtrees: methodology/ tools/ skills/ domain/ career/ projects/
+
+## 
